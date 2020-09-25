@@ -14,8 +14,7 @@ setup(
     packages=[
         "hungman",
     ],
-    install_requires=[
-    ],
+    install_requires=[],
     setup_requires=[
         "pytest-runner",
         "pytest-pylint",
@@ -34,5 +33,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-    ]
+    ],
 )
