@@ -4,6 +4,7 @@ python:
 install:
   - pip install codecov
 script:
-  - coverage pytest
+  - python3 setup.py pytest
+  - coverage run -m pytest
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov 
