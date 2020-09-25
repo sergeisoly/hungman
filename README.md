@@ -1,8 +1,7 @@
 # hungman
 
 <!-- [![Coverage][coverage-image]][coverage-url] -->
-[![codecov.io](https://codecov.io/gh/sergeisoly/hungman/coverage.svg?branch=master)](https://codecov.io/gh/sergeisoly/hungman)
-
+[![codecov](https://codecov.io/gh/sergeisoly/hungman/branch/master/graph/badge.svg?token=6VT6Z5P1WO)](https://codecov.io/gh/sergeisoly/hungman)
 [![Build Status](https://travis-ci.com/sergeisoly/hungman.svg?token=2UaEDpaRD2vxxQMKmRyx&branch=master)](https://travis-ci.com/sergeisoly/hungman)
 
 **hungman** is a demo library for educational purposes.
