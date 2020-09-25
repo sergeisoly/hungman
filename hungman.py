@@ -39,7 +39,6 @@ def main():
     words = ["oleg", "tinkoff"]
     word = random.choice(words)
     res = play(word)
-    return res
 
 
 if __name__ == "__main__":

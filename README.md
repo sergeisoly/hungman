@@ -1,7 +1,7 @@
 # hungman
 
-[![Build Status][travis-badge]][travis-url]
 [![Coverage][coverage-image]][coverage-url]
+[![Build Status](https://travis-ci.com/sergeisoly/hungman.svg?token=2UaEDpaRD2vxxQMKmRyx&branch=master)](https://travis-ci.com/sergeisoly/hungman)
 
 **hungman** is a demo library for educational purposes.
 
