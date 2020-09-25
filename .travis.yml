@@ -6,4 +6,4 @@ install:
 script:
   - python3 setup.py pytest
 after_success:
-  - codecov -t e6638521-15b3-400c-af77-cbd758acfdf6
+  - codecov 
