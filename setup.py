@@ -14,7 +14,13 @@ setup(
     packages=[
         "hungman",
     ],
-    install_requires=[],
+    install_requires=[
+        "pytest-runner",
+        "pytest-pylint",
+        "pytest-pycodestyle",
+        "pytest-pep257",
+        "pytest-cov",
+    ],
     setup_requires=[
         "pytest-runner",
         "pytest-pylint",
