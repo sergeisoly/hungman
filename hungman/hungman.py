@@ -14,7 +14,7 @@ def play(word):
         if letter in word:
             gessed_letters += letter
             cripted_word = re.sub(f"[^{gessed_letters}]", "*", word)
-            print(f"Hit!\n" + f"The word: {cripted_word}\n\n")
+            print(f"Hit!\nThe word: {cripted_word}\n\n")
             if cripted_word == word:
                 print("You win!")
                 return True
@@ -38,7 +38,7 @@ def play(word):
 def main():
     words = ["oleg", "tinkoff"]
     word = random.choice(words)
-    res = play(word)
+    play(word)
 
 
 if __name__ == "__main__":

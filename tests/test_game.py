@@ -5,7 +5,7 @@ def test_oleg_1(capsys):
     word = 'oleg'
     input_values = ['o', 'l', 'e', 'g']
 
-    def mock_input(s):
+    def mock_input(inp):
         # print(s)
         return input_values.pop(0)
 
