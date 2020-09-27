@@ -16,7 +16,7 @@ def test_oleg_2(capsys):
     word = 'oleg'
     input_values = ['o', 'l', 'd', 'e', 'k', 'g']
 
-    def mock_input(s):
+    def mock_input(inp):
         return input_values.pop(0)
 
     hungman.input = mock_input
