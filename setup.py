@@ -11,9 +11,9 @@ setup(
     author_email="sergeisoly@gmail.com",
     url="https://github.com/sergeisoly/hungman",
     license="MIT",
-    # packages=[
-    #     "hungman",
-    # ],
+    packages=[
+        "hungman",
+    ],
     install_requires=[],
     setup_requires=[
         "pytest-runner",

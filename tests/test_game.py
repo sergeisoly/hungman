@@ -1,4 +1,4 @@
-import hungman
+from . import hungman
 
 
 def test_oleg_1(capsys):
