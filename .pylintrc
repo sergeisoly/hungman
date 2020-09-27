@@ -1,3 +1,4 @@
 [MESSAGE CONTROL]
-disable=missing-docstring
-disable=unused-argument
+disable=
+    missing-docstring
+    unused-argument
