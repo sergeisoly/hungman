@@ -1,4 +1,4 @@
-from . import hungman
+from hungman import hungman
 
 
 def test_oleg_1(capsys):
